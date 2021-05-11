@@ -1,0 +1,90 @@
+body {
+	margin:0;
+	font-family: 'Lucida Sans', sans-serif;
+	background-image: url('../képek/rajzlap.jpeg');
+	background-attachment: fixed;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	max-width: 1024px;
+	margin: 100px auto;
+	box-shadow: 0 0 200px rgba(255,255,255,.3);
+	font-size: 20px;
+	
+}
+
+.szoveg {
+width: 75%;
+text-align: justify;
+}
+
+.szoveg_1 {
+
+	width: 65%;
+	text-align:  justify;
+}
+
+.szoveg_2 {
+	text-align: justify;
+	margin-left: 45%;
+}
+
+.szoveg_3 {
+	text-align: justify;
+	width: 65%;
+
+}
+header {
+	
+	position: relative;
+}
+nav {
+	background: rgba(25,45,90,.6);
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+nav::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+}
+nav a:hover {
+	background: rgba(0,0,0,.8);
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	float: left;
+}
+
+main {
+	background: rgba(25,45,90,.6) ;
+	padding: 30px;
+}
+main p {
+	line-height: 1.5;
+	margin-bottom: 0;
+	margin-top: 16px;
+}
+main h1 {
+	margin-top: 0;
+}
+
+span {
+	text-align: -webkit-center;
+}
